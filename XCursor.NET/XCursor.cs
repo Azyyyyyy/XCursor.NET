@@ -28,7 +28,7 @@ public class XCursor
     public uint Delay { get; internal set; }
     
     /// <summary>
-    /// Packed ARGB format pixels
+    /// BGRA format pixels
     /// </summary>
     public byte[] Pixels { get; internal set; }
 }
